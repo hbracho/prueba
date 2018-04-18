@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('build 1') {
             steps {
                  echo "nothing to compile for hello.sh..."
             }
